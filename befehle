@@ -1,0 +1,4 @@
+sed -i 's/<was>/<womit>/g'															                        -			replace was für womit
+head <filename.csv> -n 1 | sed "s/;/\n/g"| awk '{printf("%d %s\n", NR, $0)}'		-			gibt alle Werte der Spalte 1 und deren Nummer in der Reihenfolge aus
+cat /proc/cpuinfo																	                              -			gibt die cpu Info. 
+cat /proc/cpuinfo | grep processor													                    -			gibt die Cores Anzahl. 
